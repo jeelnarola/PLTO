@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 100%;
+    margin: auto;
+}
+
+:root{
+    --maintext:black;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.align-item{
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+// HEADER CSS DESIGN
+
+// header{
+//     nav{
+//         ul{
+//             position: fixed;
+//             width: 100%;
+//             height: 100vh;
+//             background-color: bisque;
+//             top: 80px;
+//             left: 0px;
+//             display: flex;
+//             flex-direction: column;
+//             li{
+//                 display:block;
+//                 padding: 10px;
+//                 a{
+//                     color: var(--maintext);
+//                     text-transform: uppercase;
+//                 }
+//             }
+
+//         }
+//     }
+//     .icon{
+//         .fa-facebook ,.fa-twitter{
+//             display: none;
+//         }
+//         i{
+//             padding: 10px;
+//         }
+//         .fa-bars{
+//             display: block;
+//         }
+//     }
+// }
+
+// header {
+//     nav{
+//         ul{
+//             position: fixed;
+//             top: 80px;
+//             left: 0px;
+//             flex-direction: column;
+//             li{
+//                 a{
+//                     text-decoration: none;
+//                     color: var(--maintext);
+//                     padding: 10px;
+//                 }
+//             }
+//         }
+//     }
+// }
+.responsiv-header{
+    display: none;
+}
+header{
+    padding: 10px;
+    .header{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        // position: relative;
+        .menu{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            h2{
+                margin: 0px 10px;
+                margin-left: 20px;
+            }
+        }
+        .activ{
+            visibility: visible;
+            transition: all 0.5s ;
+        }
+        aside{
+            width: 100%;
+            height: 100vh;
+            background-color: blueviolet;
+            position: absolute;
+            top:0px;
+            display: flex;
+            flex-wrap: nowrap;
+            visibility: hidden;
+            .product-list{
+                width: 100px;
+                height:100vh;
+                overflow: scroll;
+                .product-name{
+                    border: 1px solid white;
+                    text-align: center;
+                    font-size: 18px;
+                    
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border: 1px solid white;
+                        // padding: 10px;
+                        border-radius: 100%;
+                        margin: 7px 0px;
+                    }
+                    p{
+                        font-size: 15px;
+                        padding: 10px;
+                        padding-top: 0px;
+                        span{
+                            display: block;
+                        }
+                    }
+                }
+                .fa-xmark{
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid white;
+                    font-size: 20px;
+                    margin: 5px;
+                    text-align: center;
+                }
+            }
+            .box-product{
+                overflow: scroll;
+                width: 100%;
+                // height: 100vh;
+                .product-heading{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    p{
+                        font-size: 10px;
+                        padding-left: 10px;
+                        padding-bottom: 5px;
+                        padding-top: 10px;
+                    }
+                    .hr{
+                        width: 72px;
+                        height: 1px;
+                        background-color: aliceblue;
+                        margin-top: 5px;
+                        margin-left: 5px;
+                    }
+                }
+                .product-contant{
+                    h2{
+                        font-size: 15px;
+                        letter-spacing: 1px;
+                        padding-left: 10px;
+                    }
+                }
+                .box{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly; 
+                    .product-box{
+                        width: 60px;
+                        margin: 10px 0px;
+                        img{
+                            width: 45px;
+                            height: 45px;
+                            text-align: center;
+                        }
+                        p{
+                            font-size: 10px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+                }
+            
+        }
+    }
+}
