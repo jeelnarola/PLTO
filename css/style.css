@@ -53,11 +53,48 @@ header .header .menu {
 }
 header .header .menu h2 {
   margin: 0px 10px;
-  margin-left: 20px;
+  font-size: 20px;
 }
 header .header .activ {
   visibility: visible;
   transition: all 0.5s;
+}
+header .header .icon button {
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+}
+header .header .icon button a {
+  text-transform: capitalize;
+  color: white;
+}
+header .header .icon .Signup-Form {
+  position: absolute;
+  contain: "";
+  background-color: antiquewhite;
+  left: 0px;
+  right: 0px;
+  top: 70px;
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  padding: 10px;
+}
+header .header .icon .Signup-Form h2 {
+  text-align: center;
+  padding: 10px;
+}
+header .header .icon .Signup-Form #signup .box {
+  display: block;
+}
+header .header .icon .Signup-Form #signup .box label {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header .header .icon .Signup-Form #signup .box input {
+  padding: 10px 20px;
 }
 header .header aside {
   width: 100%;

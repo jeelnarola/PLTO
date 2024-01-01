@@ -101,12 +101,65 @@ header{
             align-items: center;
             h2{
                 margin: 0px 10px;
-                margin-left: 20px;
+                font-size: 20px;
+                // margin-left: 20px;
+
             }
         }
         .activ{
             visibility: visible;
             transition: all 0.5s ;
+        }
+        .icon{
+            i{
+                // padding: 10px 2px;
+            }
+            button{
+                padding: 10px;
+                background-color: blue;
+                border-radius: 10px;
+                border: none;
+                margin-left: 5px;
+                a{
+                    text-transform: capitalize;
+                    color: white;
+
+                }
+            }
+                    .Signup-Form{
+                        position: absolute;
+                        contain: "";
+                        background-color: antiquewhite;
+                        // top: 0px;
+                        // bottom: 0px;
+                        // left: 0px;
+                        // right: 0px;
+                        left: 0px;
+                        right: 0px;
+                        top: 70px;
+                        width: 400px;
+                        height: 100vh;
+                        margin: auto;
+                        padding: 10px;
+                        h2{
+                            text-align: center;
+                            padding: 10px;
+                        }
+                        #signup{
+                            .box{
+                                display: block;
+                                label{
+                                    text-transform: uppercase;
+                                    font-size: 15px;
+                                }
+                                input{
+                                    padding: 10px 20px;
+                                }
+                            }
+                        }
+                    }
+            
+            
         }
         aside{
             width: 100%;

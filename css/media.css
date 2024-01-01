@@ -47,6 +47,16 @@
   header .header .menu i {
     display: none;
   }
+  header .header .menu h2 {
+    font-size: 30px;
+  }
+  header .header .icon i {
+    margin: 0px 5px;
+    font-size: 16px;
+  }
+  header .header .icon button {
+    padding: 10px 20px;
+  }
   .responsiv-header {
     display: block;
     border: 1px solid black;
@@ -93,11 +103,25 @@
   .responsiv-header ul li :hover {
     border-bottom: 1px solid black;
   }
-  .responsiv-header ul li:hover .box-dropdown {
+  .responsiv-header ul li :hover .box-dropdown {
     transform: scale(1);
   }
   .responsiv-header ul li :hover .box-dropdown .all ul li a {
     color: red;
+  }
+  .responsiv-header ul li .men {
+    position: absolute;
+    width: 550px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    left: 280px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    visibility: visible;
   }
 }
 @media (min-width: 768px) {
