@@ -126,7 +126,6 @@
                 .box-dropdown{
                     position: absolute;
                     width: 550px;
-                    height: 200px;
                     box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
                     top: 33px;
                     padding: 10px;
@@ -149,12 +148,14 @@
                         border: none;
                         a{
                             color: gray;
+                            &:hover{
+                                color: black;
+                            }
                         }
-                        :hover{
-                            color: black;
-                        }
+                        
                     } 
                 }
+                
                 .men{
                     position: absolute;
                     width: 550px;
@@ -172,7 +173,6 @@
                 .Jewellery{
                     position: absolute;
                     width: 550px;
-                    height: 200px;
                     box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
                     top: 33px;
                     padding: 10px;
@@ -183,6 +183,48 @@
                     justify-content: space-around;
                     visibility: visible; 
                 }
+                
+            }
+            #Electronics{
+                position: relative;
+                &:hover{
+                    .Electronics{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .Electronics{
+                position: absolute;
+                width: 245px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                right: 0px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                // visibility: ; 
+                transform: scale(0);
+                transition: all 0.3s ease-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
             }
         }
     }

@@ -136,7 +136,7 @@ header .header aside {
   top: 0px;
   display: flex;
   flex-wrap: nowrap;
-  visibility: visible;
+  visibility: hidden;
 }
 header .header aside .product-list {
   width: 100px;

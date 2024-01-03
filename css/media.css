@@ -132,7 +132,6 @@
   .responsiv-header ul li .box-dropdown {
     position: absolute;
     width: 550px;
-    height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     top: 33px;
     padding: 10px;
@@ -157,7 +156,7 @@
   .responsiv-header ul li .box-dropdown li a {
     color: gray;
   }
-  .responsiv-header ul li .box-dropdown li :hover {
+  .responsiv-header ul li .box-dropdown li a:hover {
     color: black;
   }
   .responsiv-header ul li .men {
@@ -177,7 +176,6 @@
   .responsiv-header ul li .Jewellery {
     position: absolute;
     width: 550px;
-    height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     top: 33px;
     padding: 10px;
@@ -187,6 +185,42 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     visibility: visible;
+  }
+  .responsiv-header ul #Electronics {
+    position: relative;
+  }
+  .responsiv-header ul #Electronics:hover .Electronics {
+    transform: scale(1);
+  }
+  .responsiv-header ul .Electronics {
+    position: absolute;
+    width: 245px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    right: 0px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    transform: scale(0);
+    transition: all 0.3s ease-out;
+  }
+  .responsiv-header ul .Electronics h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .Electronics li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .Electronics li a {
+    color: gray;
+  }
+  .responsiv-header ul .Electronics li a:hover {
+    color: black;
   }
 }
 @media (min-width: 768px) {
