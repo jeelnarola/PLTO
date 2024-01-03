@@ -34,6 +34,10 @@ li {
   list-style: none;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 .responsiv-header {
   display: none;
 }
@@ -77,49 +81,80 @@ header .header .icon .Signup-Form {
   left: 0px;
   right: 0px;
   top: 70px;
-  width: 400px;
+  width: 350px;
   height: 100vh;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
+  display: none;
 }
 header .header .icon .Signup-Form h2 {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
-header .header .icon .Signup-Form #signup .box {
+header .header .icon .Signup-Form #Signup .box {
   display: block;
 }
-header .header .icon .Signup-Form #signup .box label {
+header .header .icon .Signup-Form #Signup .box label {
   text-transform: uppercase;
   font-size: 15px;
 }
-header .header .icon .Signup-Form #signup .box input {
+header .header .icon .Signup-Form #Signup .box label .e-dot {
+  margin-left: 46px;
+}
+header .header .icon .Signup-Form #Signup .box label span {
+  margin-left: 10px;
+}
+header .header .icon .Signup-Form #Signup .box select {
+  margin-left: 110px;
+  margin-top: 10px;
+}
+header .header .icon .Signup-Form #Signup .box input {
   padding: 10px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 55%;
+}
+header .header .icon .Signup-Form #Signup .box .first {
+  color: red;
+  margin-left: 110px;
+}
+header .header .icon .Signup-Form #Signup button {
+  display: block;
+  margin: auto;
+  padding: 10px 30px;
+  margin-top: 20px;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(54, 54, 227);
 }
 header .header aside {
   width: 100%;
   height: 100vh;
-  background-color: blueviolet;
+  background-color: white;
   position: absolute;
   top: 0px;
   display: flex;
   flex-wrap: nowrap;
-  visibility: hidden;
+  visibility: visible;
 }
 header .header aside .product-list {
   width: 100px;
   height: 100vh;
   overflow: scroll;
+  padding: 0px 5px;
+  margin: 10px;
 }
 header .header aside .product-list .product-name {
-  border: 1px solid white;
+  border: 1px solid black;
   text-align: center;
   font-size: 18px;
+  margin-top: 10px;
 }
 header .header aside .product-list .product-name img {
   width: 40px;
   height: 40px;
-  border: 1px solid white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 100%;
   margin: 7px 0px;
 }
@@ -158,7 +193,7 @@ header .header aside .box-product .product-heading p {
 header .header aside .box-product .product-heading .hr {
   width: 72px;
   height: 1px;
-  background-color: aliceblue;
+  background-color: black;
   margin-top: 5px;
   margin-left: 5px;
 }
@@ -171,6 +206,8 @@ header .header aside .box-product .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  text-transform: uppercase;
+  text-align: center;
 }
 header .header aside .box-product .box .product-box {
   width: 60px;

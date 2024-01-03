@@ -26,20 +26,24 @@
                         
                     </button>
                     <section class="Signup-Form">
+                        <i class="fa-solid fa-xmark Signup-close " style="font-size: 20px;" id="Signup-close"></i>
                         <div class="container">
                            <form id="Signup">
                             <h2>Signup Form</h2>
                             <div class="box">
-                                <label for="">UserName <span>:</span></label>
-                                <input type="text">
+                                <label for="" >UserName <span>:</span></label>
+                                <input type="text" id="username">
+                                <p class="first"></p>
                             </div>
                             <div class="box">
-                                <label for="">UserName <span>:</span></label>
-                                <input type="text">
+                                <label for="">email <span class="e-dot">:</span></label>
+                                <input type="text" id="email">
+                                <p class="email"></p>
                             </div>
                             <div class="box">
-                                <label for="">UserName <span>:</span></label>
-                                <input type="text">
+                                <label for="">password <span>:</span></label>
+                                <input type="text" id="password">
+                                <p class="password"></p>
                             </div>
                             <div class="box">
                                 <select>
@@ -47,6 +51,7 @@
                                     <option value="admin">Admin</option>
                                 </select>
                             </div>
+                            <button id="submit">Sumbit</button>
                            </form>
                         </div>
                     </section>
@@ -54,20 +59,22 @@
                 </div>
                 <aside>
                     <div class="product-list">
-                        <i class="fa-solid fa-xmark"></i>
+                        <i class="fa-solid fa-xmark aside"></i>
                         <div class="product-name">
                             <img src="img/women.avif" alt="">
-                            <p>Women <span>Ethnic</span></p>
+                            <a href="#Women-Ethnic"><p>Women <span>Ethnic</span></p></a>
                         </div>
                         <div class="product-name">
                             <img src="img/women.avif" alt="">
-                            <p>Women <span>Ethnic</span></p>
-                        </div><div class="product-name">
+                            <a href="#women-west"><p>Women <span>Western</span></p></a>
+                        </div>
+                        <div class="product-name">
                             <img src="img/women.avif" alt="">
-                            <p>Women <span>Ethnic</span></p>
-                        </div><div class="product-name">
+                            <a href="#men"><p>Men</p></a>
+                        </div>
+                        <div class="product-name">
                             <img src="img/women.avif" alt="">
-                            <p>Women <span>Ethnic</span></p>
+                            <a href="#kids"><p>Kids</p></a>
                         </div>
                         <div class="product-name">
                             <img src="img/women.avif" alt="">
@@ -86,16 +93,36 @@
                             <p>Women <span>Ethnic</span></p>
                         </div>
                     </div>
-                    <div class="box-product">
+                    <div class="box-product" >
                         <div class="product-heading">
-                            <p>WOMEN ETHNIC </p>
+                            <p id="Women-Ethnic">WOMEN ETHNIC </p>
                             <div class="hr"></div>
                         </div>
-                        <div class="product-contant">
-                            <h2>Sarees</h2>
+                        <div class="product-contant" >
+                            <h2 >sarees</h2>
                         </div>
-                        <div class="box">
+                        <div class="box" >
                             <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <a href=""><p>all sarees</p></a>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <a href=""><p>silk sarees</p></a>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <a href=""><p>cotton sarees</p></a>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <a href=""><p>cotton silk sarees</p></a>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <a href=""><p>satin sarees</p></a>
+                            </div>
+                            <!-- <div class="product-box">
                                 <img src="img/women.avif" alt="">
                                 <p>All sarees</p>
                             </div>
@@ -118,41 +145,37 @@
                             <div class="product-box">
                                 <img src="img/women.avif" alt="">
                                 <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
+                            </div> -->
                             
                         </div>
 
                         <!--  WOMEN WESTERN -->
 
                         <div class="product-heading">
-                            <p>Women <span>Western</span> </p>
+                            <p>Women <span>Ethnic</span> </p>
                             <div class="hr"></div>
                         </div>
                         <div class="product-contant">
-                            <h2>Sarees</h2>
+                            <h2>Kurtis</h2>
                         </div>
-                        <div class="box">
+                        <div class="box" >
                             <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <p>All Kurtis</p>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <p>rayon Kurtis</p>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <p>Anarkali Kurtis</p>
+                            </div>
+                            <div class="product-box">
+                                <img src="img/women.avif" alt="">
+                                <p>cotton Kurtis</p>
+                            </div>
+                            <!-- <div class="product-box">
                                 <img src="img/women.avif" alt="">
                                 <p>All sarees</p>
                             </div>
@@ -175,45 +198,37 @@
                             <div class="product-box">
                                 <img src="img/women.avif" alt="">
                                 <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
-                            <div class="product-box">
-                                <img src="img/women.avif" alt="">
-                                <p>All sarees</p>
-                            </div>
+                            </div> -->
                             <div class="product-box">
                                 <img src="img/women.avif" alt="">
                                 <p>All sarees</p>
                             </div>  
                         </div>
 
-                        <!--  MEN -->
+                        <!--  WOMEN Western-->
 
-                        <div class="box-product">
+                        <div class="box-product" >
                             <div class="product-heading">
-                                <p>WOMEN ETHNIC </p>
+                                <p id="women-west">WOMEN Western </p>
                                 <div class="hr"></div>
                             </div>
                             <div class="product-contant">
-                                <h2>Sarees</h2>
+                                <h2>TopWear</h2>
                             </div>
                             <div class="box">
                                 <div class="product-box">
                                     <img src="img/women.avif" alt="">
-                                    <p>All sarees</p>
+                                    <p>All Top</p>
                                 </div>
                                 <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Dresses</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Sweaters</p>
+                                </div>
+                                <!-- <div class="product-box">
                                     <img src="img/women.avif" alt="">
                                     <p>All sarees</p>
                                 </div>
@@ -244,17 +259,406 @@
                                 <div class="product-box">
                                     <img src="img/women.avif" alt="">
                                     <p>All sarees</p>
-                                </div>
-                                <div class="product-box">
-                                    <img src="img/women.avif" alt="">
-                                    <p>All sarees</p>
-                                </div>
-                                <div class="product-box">
-                                    <img src="img/women.avif" alt="">
-                                    <p>All sarees</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p>WOMEN Western </p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>BottomWaer</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jeans</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Palazzos</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p>WOMEN Western </p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>innerWear</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>bra</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>briefs</p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div> -->
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- MEN  -->
+                        
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p id="men">Men </p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>Top Wear</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>all Top Wear</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Tshirts</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>shirts</p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div> -->
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p id="men">Men </p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>Bottom Wear</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Track Pants</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jeans</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Trousers/p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts/p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div> -->
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p id="men">Men </p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>Men Accessories</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All Accessories</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Watches</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Belts</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Wallets</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jewellery</p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div> -->
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+
+                        <!-- KIDS -->
+
+                        <div class="box-product">
+                            <div class="product-heading">
+                                <p id="kids">Kids</p>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="product-contant">
+                                <h2>Toys & Accessories</h2>
+                            </div>
+                            <div class="box">
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All Accessories</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Watches</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Belts</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Wallets</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jewellery</p>
+                                </div>
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Jengsggi</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>Shorts</p>
+                                </div> -->
+                                <!-- <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div>
+                                <div class="product-box">
+                                    <img src="img/women.avif" alt="">
+                                    <p>All sarees</p>
+                                </div> -->
+                            </div>
+                        </div>
+
                     </div>
                 </aside>
             </div>
@@ -358,9 +762,101 @@
                             </div>
                         </div>
                     </li>
-                    <li>Kids</li>
-                    <li>Home & Kitchen</li>
-                    <li>Jewellery & Accessories</li>
+                    <li>Kids
+                        <div class="men box-dropdown ">
+                            <div class="Top">
+                                <h2>Top Wear</h2>
+                                <ul>
+                                    <li><a href="">All Tops Wear</a></li>
+                                    <li><a href="">Tshirts</a></li><li>
+                                        <a href="">Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h2>Bottom Wear</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">Track Pants</a></li>
+                                    <li><a href="">Jeans</a></li>
+                                    <li><a href="">Trousers</a></li>
+                                    <li><a href="">Shorts</a></li>
+                                </ul>
+                            </div>
+                            <div class="Kurtis">
+                                <h2>Men Accessories</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">All Men Accessories</a></li>
+                                    <li><a href="">Watches</a></li>
+                                    <li><a href="">Belts</a></li>
+                                    <li><a href="">Wallets</a></li>
+                                    <li><a href="">Jewellery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>Home & Kitchen
+
+                        <div class="men box-dropdown ">
+                            <div class="Top">
+                                <h2>Top Wear</h2>
+                                <ul>
+                                    <li><a href="">All Tops Wear</a></li>
+                                    <li><a href="">Tshirts</a></li><li>
+                                        <a href="">Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h2>Bottom Wear</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">Track Pants</a></li>
+                                    <li><a href="">Jeans</a></li>
+                                    <li><a href="">Trousers</a></li>
+                                    <li><a href="">Shorts</a></li>
+                                </ul>
+                            </div>
+                            <div class="Kurtis">
+                                <h2>Men Accessories</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">All Men Accessories</a></li>
+                                    <li><a href="">Watches</a></li>
+                                    <li><a href="">Belts</a></li>
+                                    <li><a href="">Wallets</a></li>
+                                    <li><a href="">Jewellery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>Jewellery & Accessories
+                        <div class="Jewellery box-dropdown ">
+                            <div class="Top">
+                                <h2>Top</h2>
+                                <ul>
+                                    <li><a href="">All Tops Wear</a></li>
+                                    <li><a href="">Tshirts</a></li><li>
+                                        <a href="">Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h2>Bottom Wear</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">Track Pants</a></li>
+                                    <li><a href="">Jeans</a></li>
+                                    <li><a href="">Trousers</a></li>
+                                    <li><a href="">Shorts</a></li>
+                                </ul>
+                            </div>
+                            <div class="Kurtis">
+                                <h2>Men Accessories</h2>
+                                <ul class="drop-menu">
+                                    <li><a href="">All Men Accessories</a></li>
+                                    <li><a href="">Watches</a></li>
+                                    <li><a href="">Belts</a></li>
+                                    <li><a href="">Wallets</a></li>
+                                    <li><a href="">Jewellery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
                     <li>Electronics</a></li>
                 </ul>
         </div>
@@ -369,12 +865,98 @@
 </body>
 <script>
     
+    let emailregerx=/(\<|^)[\w\d._%+-]+@(?:[\w\d-]+\.)+(\w{2,})(\>|$)/;
+    let passregex=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+
+
     let active=document.querySelector("aside")
     document.querySelector(".fa-bars").addEventListener("click",()=>{
         active.classList.add("activ")
     })
-    document.querySelector(".fa-xmark").addEventListener("click",()=>{
+    document.querySelector(".aside").addEventListener("click",()=>{
         active.classList.remove("activ")
+        // alert("j")
     })
+   
+
+    document.getElementById("username").addEventListener("keypress",()=>{
+    let first=document.getElementById("username").value
+    let nameregex=/^[A-Za-z.]{3,30}$/;
+
+        if(nameregex.test(first)){
+            document.getElementById("username").style.border="2px solid black"
+            document.querySelector(".first").innerHTML=""
+        }else{
+            document.getElementById("username").style.border="2px solid red"
+            document.querySelector(".first").innerHTML="Not Valid UserName !"
+        }
+
+})
+
+document.getElementById("email").addEventListener("keypress",()=>{
+    let first=document.getElementById("email").value
+    // let nameregex=/^[A-Za-z.]{3,30}$/;
+
+        if(emailregerx.test(first)){
+            document.getElementById("email").style.border="2px solid black"
+            document.querySelector(".email").innerHTML=""
+        }else{
+            document.getElementById("email").style.border="2px solid red"
+            document.querySelector(".email").innerHTML="Not Valid Email !"
+        }
+
+})
+
+document.getElementById("password").addEventListener("keypress",()=>{
+    let first=document.getElementById("password").value
+
+        if(passregex.test(first)){
+            document.getElementById("password").style.border="2px solid black"
+            document.querySelector(".password").innerHTML=""
+        }else{
+            document.getElementById("password").style.border="2px solid red"
+            document.querySelector(".password").innerHTML="9 Digits Password And First Letter Cepitals !"
+        }
+
+})
+
+document.getElementById("submit").addEventListener("click",(e)=>{
+    e.preventDefault()
+    let username=document.getElementById("username").value
+    let email=document.getElementById("email").value
+    let password=document.getElementById("password").value
+    if(username==""){
+        document.getElementById("username").style.border="2px solid red"
+    }else{
+        document.getElementById("username").style.border="2px solid black"
+
+    }
+    if(email==""){
+        document.getElementById("email").style.border="2px solid red"
+    }else{
+        document.getElementById("email").style.border="2px solid black"
+
+    }
+    if(password==""){
+        document.getElementById("password").style.border="2px solid red"
+    }else{
+        document.getElementById("password").style.border="2px solid black"
+
+    }
+})
+
+
+// btn Click Event
+
+document.querySelector(".Signup").addEventListener("click",(e)=>{
+    e.preventDefault()
+    document.querySelector(".Signup-Form").style.display="block"
+})
+
+document.querySelector(".Signup-close").addEventListener("click",(e)=>{
+    e.preventDefault()
+    document.querySelector(".Signup-Form").style.display="none"
+})
+
 </script>
 </html>
