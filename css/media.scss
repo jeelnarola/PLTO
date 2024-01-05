@@ -156,34 +156,257 @@
                     } 
                 }
                 
-                .men{
-                    position: absolute;
-                    width: 550px;
-                    height: 200px;
-                    box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
-                    top: 33px;
-                    padding: 10px;
-                    left: 280px;
-                    text-align: center;
-                    display: flex;
-                    flex-wrap: nowrap;
-                    justify-content: space-around;
-                    visibility: visible;
-                }
-                .Jewellery{
-                    position: absolute;
-                    width: 550px;
-                    box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
-                    top: 33px;
-                    padding: 10px;
-                    left: 600px;
-                    text-align: center;
-                    display: flex;
-                    flex-wrap: nowrap;
-                    justify-content: space-around;
-                    visibility: visible; 
-                }
                 
+                
+                
+            }
+            #Wthnic{
+                position: relative;
+                &:hover{
+                    .Wthnic{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .Wthnic{
+                position: absolute;
+                width: 355px;
+                height: 200px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                left: -55px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
+            }
+            #Western{
+                position: relative;
+                &:hover{
+                    .Western{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .Western{
+                position: absolute;
+                width: 400px;
+                height: 200px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                left: -100px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
+            }
+            #men{
+                position: relative;
+                &:hover{
+                    .men{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .men{
+                position: absolute;
+                width: 400px;
+                height: 200px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                left: -155px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
+                 
+            }
+            #kids{
+                position: relative;
+                &:hover{
+                    .kids{
+                        transform: scale(1);
+                    }
+                }
+
+            }
+            .kids{
+                position: absolute;
+                width: 300px;
+                height: 200px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                left: -100px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
+            }
+            #homeKi{
+                position: relative;
+                &:hover{
+                    .homeKi{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .homeKi{
+                position: absolute;
+                width: 550px;
+                height: 200px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                padding: 10px;
+                left: -215px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
+            }
+            #Jewellery{
+                position: relative;
+                &:hover{
+                    .Jewellery{
+                        transform: scale(1);
+                    }
+                }
+            }
+            .Jewellery{
+                position: absolute;
+                width: 350px;
+                box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
+                top: 33px;
+                right: -90px;
+                // left: 0px;
+                padding: 10px;
+                text-align: center;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                transform: scale(0);
+                transition: all 0.3s ease-in-out;
+                h2{
+                    font-size: 15px;
+                    padding: 10px 5px;
+                    color: purple;
+                    display: inline-block;
+                    // margin-bottom: 0px;
+                }  
+                li{
+                    padding: 5px 0px;
+                    border: none;
+                    a{
+                        color: gray;
+                        &:hover{
+                            color: black;
+                        }
+                    }
+                    
+                } 
             }
             #Electronics{
                 position: relative;
@@ -199,12 +422,11 @@
                 box-shadow: 0px 0px 10px rgb(0,0,0,0.2);
                 top: 33px;
                 padding: 10px;
-                right: 0px;
+                right: -40px;
                 text-align: center;
                 display: flex;
                 flex-wrap: nowrap;
                 justify-content: space-around;
-                // visibility: ; 
                 transform: scale(0);
                 transition: all 0.3s ease-out;
                 h2{

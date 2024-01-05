@@ -221,4 +221,42 @@ header .header aside .box-product .box .product-box img {
 header .header aside .box-product .box .product-box p {
   font-size: 10px;
   padding-top: 5px;
+}
+
+.product-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.product-box .WomenWthni {
+  display: none;
+}
+.product-box .Western {
+  display: none;
+}
+.product-box .men {
+  display: none;
+}
+.product-box .kids {
+  display: none;
+}
+.product-box .HomeKitchen {
+  display: none;
+}
+.product-box .JA {
+  display: none;
+}
+.product-box .Electronics {
+  display: none;
+}
+.product-box samp {
+  color: red;
+}
+.product-box .topW {
+  display: none;
+}
+.product-box .activ {
+  display: block;
+}
+.product-box .nonactiv {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

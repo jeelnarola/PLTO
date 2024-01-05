@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Add</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+
+        @import url(../css/style.css);
+        @import url(../css/media.css);
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <form action="">
+                <div class="product-box">
+                    <label for="">Title<samp>*</samp><span>:</span></label>
+                    <input type="text">
+                </div>
+                <div class="product-box">
+                    <label for="">Price<samp>*</samp><span>:</span></label>
+                    <input type="text">
+                </div>
+                <div class="product-box">
+                    <label for="">Description<samp>*</samp><span>:</span></label>
+                    <input type="text">
+                </div>
+                <div class="product-box">
+                    <label for="">category<samp>*</samp><span>:</span></label>
+                    <select name="" id="category"  onchange="women()">
+                        <option value="" selected></option>
+                        <option value="Women-Wthnic"  >Women Wthnic</option>
+                        <option value="Women-Western">Women Western</option>
+                        <option value="Men">Men</option>
+                        <option value="Kids">Kids</option>
+                        <option value="Home-Kitchen">Home & Kitchen</option>
+                        <option value="Jewellery-Accessories">Jewellery & Accessories</option>
+                        <option value="Jewellery-Accessories">Electronics</option>
+                    </select>
+                </div>
+                <div class="product-box">
+                    <label for="">Sub-category<samp>*</samp><span>:</span></label>
+                        <select name="" id="subcategory" class="WomenWthni" onchange="Subcategory()">
+                            <option  value="Women-Wthnic"> Wthnic</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option  value="Men">Men</option>
+                        </select>
+                        <select name="" id="subcategory" class="Western">
+                            <option  value="Women-Wthnic">a</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                        <select name="" id="subcategory" class="men">
+                            <option  value="Women-Wthnic"> men</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                        <select name="" id="subcategory" class="kids">
+                            <option  value="Women-Wthnic"> kids</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                        
+                        <select name="" id="subcategory" class="HomeKitchen">
+                            <option  value="Women-Wthnic">homen</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                        <select name="" id="subcategory" class="JA">
+                            <option  value="Women-Wthnic">Jewellery</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                        <select name="" id="subcategory" class="Electronics">
+                            <option  value="Women-Wthnic">Electronics</option>
+                            <option  value="Women-Western">Women Western</option>
+                            <option   value="Men">Men</option>
+                        </select>
+                </div>
+                <div class="product-box">
+                    <label for="">Product-category<samp>*</samp><span>:</span></label>
+                    <select name="" class="topW">
+                        <option  value="Women-Wthnic">Electronics</option>
+                        <option  value="Women-Western">Women Western</option>
+                        <option   value="Men">Men</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script>
+    // let a=document.getElementById("category").val
+
+    function women() {
+      let name=document.getElementById("category").value
+      let WomenWthni=document.querySelector(".WomenWthni")
+      let Western=document.querySelector(".Western")
+      let men=document.querySelector(".men")
+      let kids=document.querySelector(".kids")
+      let HomeKitchen=document.querySelector(".HomeKitchen")
+      let Jewellery=document.querySelector(".JA")
+      let Electronics=document.querySelector(".Electronics")
+
+        if(name=="Women-Wthnic"){
+            WomenWthni.classList.add("activ")
+            Western.classList.remove("activ")
+            men.classList.remove("activ")
+            kids.classList.remove("activ")
+            HomeKitchen.classList.remove("activ")
+            Jewellery.classList.remove("activ")
+            Electronics.classList.remove("activ")
+
+        }
+
+        if(name=="Women-Western"){
+            Western.classList.add("activ")
+            WomenWthni.classList.remove("activ")
+            men.classList.remove("activ")
+            kids.classList.remove("activ")
+            HomeKitchen.classList.remove("activ")
+            Jewellery.classList.remove("activ")
+            Electronics.classList.remove("activ")
+
+        }
+
+        if(name=="Men"){
+            men.classList.add("activ")
+            Western.classList.remove("activ")
+            WomenWthni.classList.remove("activ")
+            kids.classList.remove("activ")
+            HomeKitchen.classList.remove("activ")
+            Jewellery.classList.remove("activ")
+            Electronics.classList.remove("activ")
+
+        }
+
+        if(name=="Kids"){
+            kids.classList.add("activ")
+            men.classList.remove("activ")
+            Western.classList.remove("activ")
+            WomenWthni.classList.remove("activ")
+            HomeKitchen.classList.remove("activ")
+            Jewellery.classList.remove("activ")
+            Electronics.classList.remove("activ")
+
+        }
+
+        if(name=="Home-Kitchen"){
+            HomeKitchen.classList.add("activ")
+            kids.classList.remove("activ")
+            men.classList.remove("activ")
+            Western.classList.remove("activ")
+            WomenWthni.classList.remove("activ")
+            Jewellery.classList.remove("activ")
+            Electronics.classList.remove("activ")
+
+        }
+
+        if(name=="Jewellery-Accessories"){
+            Jewellery.classList.add("activ")
+            HomeKitchen.classList.remove("activ")
+            kids.classList.remove("activ")
+            men.classList.remove("activ")
+            Western.classList.remove("activ")
+            WomenWthni.classList.remove("activ")
+            Electronics.classList.remove("activ")
+        }
+
+        if(name=="Electronics"){
+            Electronics.classList.add("activ")
+            Jewellery.classList.add("activ")
+            HomeKitchen.classList.remove("activ")
+            kids.classList.remove("activ")
+            men.classList.remove("activ")
+            Western.classList.remove("activ")
+            WomenWthni.classList.remove("activ")   
+        }
+    } 
+
+    function Subcategory(){
+        let name=document.getElementById("subcategory").value
+        let topW=document.querySelector(".topW")
+        console.log(name);
+        console.log(topW);
+        
+        if(name=="Women-Wthnic"){
+            topW.classList.add("activ")
+        }
+    }
+</script>
+</html>

@@ -159,32 +159,226 @@
   .responsiv-header ul li .box-dropdown li a:hover {
     color: black;
   }
-  .responsiv-header ul li .men {
+  .responsiv-header ul #Wthnic {
+    position: relative;
+  }
+  .responsiv-header ul #Wthnic:hover .Wthnic {
+    transform: scale(1);
+  }
+  .responsiv-header ul .Wthnic {
+    position: absolute;
+    width: 355px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    left: -55px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .responsiv-header ul .Wthnic h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .Wthnic li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .Wthnic li a {
+    color: gray;
+  }
+  .responsiv-header ul .Wthnic li a:hover {
+    color: black;
+  }
+  .responsiv-header ul #Western {
+    position: relative;
+  }
+  .responsiv-header ul #Western:hover .Western {
+    transform: scale(1);
+  }
+  .responsiv-header ul .Western {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    left: -100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .responsiv-header ul .Western h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .Western li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .Western li a {
+    color: gray;
+  }
+  .responsiv-header ul .Western li a:hover {
+    color: black;
+  }
+  .responsiv-header ul #men {
+    position: relative;
+  }
+  .responsiv-header ul #men:hover .men {
+    transform: scale(1);
+  }
+  .responsiv-header ul .men {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    left: -155px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .responsiv-header ul .men h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .men li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .men li a {
+    color: gray;
+  }
+  .responsiv-header ul .men li a:hover {
+    color: black;
+  }
+  .responsiv-header ul #kids {
+    position: relative;
+  }
+  .responsiv-header ul #kids:hover .kids {
+    transform: scale(1);
+  }
+  .responsiv-header ul .kids {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    top: 33px;
+    padding: 10px;
+    left: -100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .responsiv-header ul .kids h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .kids li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .kids li a {
+    color: gray;
+  }
+  .responsiv-header ul .kids li a:hover {
+    color: black;
+  }
+  .responsiv-header ul #homeKi {
+    position: relative;
+  }
+  .responsiv-header ul #homeKi:hover .homeKi {
+    transform: scale(1);
+  }
+  .responsiv-header ul .homeKi {
     position: absolute;
     width: 550px;
     height: 200px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     top: 33px;
     padding: 10px;
-    left: 280px;
+    left: -215px;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    visibility: visible;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
   }
-  .responsiv-header ul li .Jewellery {
+  .responsiv-header ul .homeKi h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .homeKi li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .homeKi li a {
+    color: gray;
+  }
+  .responsiv-header ul .homeKi li a:hover {
+    color: black;
+  }
+  .responsiv-header ul #Jewellery {
+    position: relative;
+  }
+  .responsiv-header ul #Jewellery:hover .Jewellery {
+    transform: scale(1);
+  }
+  .responsiv-header ul .Jewellery {
     position: absolute;
-    width: 550px;
+    width: 350px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     top: 33px;
+    right: -90px;
     padding: 10px;
-    left: 600px;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    visibility: visible;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+  }
+  .responsiv-header ul .Jewellery h2 {
+    font-size: 15px;
+    padding: 10px 5px;
+    color: purple;
+    display: inline-block;
+  }
+  .responsiv-header ul .Jewellery li {
+    padding: 5px 0px;
+    border: none;
+  }
+  .responsiv-header ul .Jewellery li a {
+    color: gray;
+  }
+  .responsiv-header ul .Jewellery li a:hover {
+    color: black;
   }
   .responsiv-header ul #Electronics {
     position: relative;
@@ -198,7 +392,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     top: 33px;
     padding: 10px;
-    right: 0px;
+    right: -40px;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;

@@ -289,3 +289,43 @@ header{
         }
     }
 }
+
+
+.product-box{
+    display: flex;
+    flex-wrap: nowrap;
+    .WomenWthni{
+        display: none;
+    }
+    .Western{
+        display: none;
+    }
+    .men{
+        display: none;
+    }
+    .kids{
+        display: none;
+    }
+    .HomeKitchen{
+        display: none;
+    }
+    .JA{
+        display: none;
+    }
+    .Electronics{
+        display: none;
+    }
+    
+    samp{
+        color: red;
+    }
+    .topW{
+        display: none;
+    }
+    .activ{
+        display: block;
+    }
+    .nonactiv{
+        display: none;
+    }
+}
